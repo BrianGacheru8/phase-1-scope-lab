@@ -1,7 +1,7 @@
 var customerName = 'bob';
 
 function upperCaseCustomerName() {
-    return customerName.toUpperCase();
+  return customerName.toUpperCase();
 }
 
 function setBestCustomer() {
@@ -17,6 +17,5 @@ function overwriteBestCustomer() {
 const leastFavoriteCustomer = 'some customer';
 
 function changeLeastFavoriteCustomer() {
-    // This will throw an error because leastFavoriteCustomer is a constant
-    // leastFavoriteCustomer = 'another customer'; // Remove this line
+    leastFavoriteCustomer = 'another customer'; // Remove this line
 }
